@@ -21,15 +21,15 @@ public class SingleMode extends JPanel implements KeyListener,ActionListener {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	ImageIcon title=new ImageIcon("title.jpg");
-	ImageIcon food=new ImageIcon("food.png");
-	ImageIcon left=new ImageIcon("left.png");
-	ImageIcon right=new ImageIcon("right.png");
-	ImageIcon up=new ImageIcon("up.png");
-	ImageIcon down=new ImageIcon("down.png");
-	ImageIcon body=new ImageIcon("body.png");
-	ImageIcon big=new ImageIcon("big.png");
-	ImageIcon background=new ImageIcon("jiu.jpg");
+	ImageIcon title=new ImageIcon("images/title.jpg");
+	ImageIcon food=new ImageIcon("images/food.png");
+	ImageIcon left=new ImageIcon("images/left.png");
+	ImageIcon right=new ImageIcon("images/right.png");
+	ImageIcon up=new ImageIcon("images/up.png");
+	ImageIcon down=new ImageIcon("images/down.png");
+	ImageIcon body=new ImageIcon("images/body.png");
+	ImageIcon big=new ImageIcon("images/big.png");
+	ImageIcon background=new ImageIcon("images/jiu.jpg");
 	Timer time=new Timer(100,this);	
 	int snakex[]=new int[700];
 	 int snakey[]=new int[700];
@@ -49,7 +49,7 @@ public class SingleMode extends JPanel implements KeyListener,ActionListener {
 	}
 	public void paint(Graphics g){
 		title.paintIcon(this, g, 25, 11);
-		 ImageIcon img = new ImageIcon("jiu.jpg");
+		 ImageIcon img = new ImageIcon("images/jiu.jpg");
 		  g.drawImage(img.getImage(), 25, 85, null);
 		
 		g.setFont(new Font("arial", Font.BOLD ,18));

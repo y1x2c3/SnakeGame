@@ -7,9 +7,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class firstpage extends JFrame implements ActionListener {
-	ImageIcon background00=new ImageIcon("firstpage.jpg");
-	ImageIcon denglu=new ImageIcon("µÇÂ¼.jpg");
-	ImageIcon qingchu=new ImageIcon("Çå³ý.jpg");
+	ImageIcon background00=new ImageIcon("images/firstpage.jpg");
+	ImageIcon denglu=new ImageIcon("images/µÇÂ¼.jpg");
+	ImageIcon qingchu=new ImageIcon("images/Çå³ý.jpg");
 	JLabel jlabel00=new JLabel(background00);
 private static final long serialVersionUID = 1L;
 	 static JFrame frame=new JFrame();

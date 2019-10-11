@@ -18,10 +18,10 @@ public class SnakePanel extends JFrame implements ActionListener {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	ImageIcon background=new ImageIcon("Ì°³ÔÉß.jpg");
-	ImageIcon kaishi1=new ImageIcon("°´Å¥1.png");
-	ImageIcon kaishi2=new ImageIcon("°´Å¥2.png");
-	ImageIcon kaishi3=new ImageIcon("°´Å¥3.png");
+	ImageIcon background=new ImageIcon("images/Ì°³ÔÉß.jpg");
+	ImageIcon kaishi1=new ImageIcon("images/°´Å¥1.png");
+	ImageIcon kaishi2=new ImageIcon("images/°´Å¥2.png");
+	ImageIcon kaishi3=new ImageIcon("images/°´Å¥3.png");
 	JLabel jlabel=new JLabel(background);
 	JButton button1=new JButton("",kaishi1);
 	JButton button2=new JButton("",kaishi2);
